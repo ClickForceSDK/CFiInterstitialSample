@@ -16,7 +16,6 @@
 		22219FC31F205D040027258F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22219FC11F205D040027258F /* LaunchScreen.storyboard */; };
 		22219FCE1F205D040027258F /* CFiInterstitialSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219FCD1F205D040027258F /* CFiInterstitialSampleTests.m */; };
 		22219FD91F205D040027258F /* CFiInterstitialSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219FD81F205D040027258F /* CFiInterstitialSampleUITests.m */; };
-		2221A0871F2070300027258F /* libiMFAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0861F2070300027258F /* libiMFAd.a */; };
 		2221A08B1F2070650027258F /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A08A1F2070650027258F /* AddressBook.framework */; };
 		2221A08D1F20706F0027258F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A08C1F20706F0027258F /* CoreFoundation.framework */; };
 		2221A08F1F20785D0027258F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A08E1F20785D0027258F /* CoreGraphics.framework */; };
@@ -29,6 +28,7 @@
 		2221A09D1F2078B80027258F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A09C1F2078B80027258F /* QuartzCore.framework */; };
 		2221A09F1F2078C40027258F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A09E1F2078C40027258F /* SystemConfiguration.framework */; };
 		2221A0A11F2078CB0027258F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0A01F2078CB0027258F /* UIKit.framework */; };
+		228392601F665E56000C4692 /* libiMFAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2283925F1F665E56000C4692 /* libiMFAd.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +66,6 @@
 		22219FD41F205D040027258F /* CFiInterstitialSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CFiInterstitialSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22219FD81F205D040027258F /* CFiInterstitialSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CFiInterstitialSampleUITests.m; sourceTree = "<group>"; };
 		22219FDA1F205D040027258F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2221A0861F2070300027258F /* libiMFAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiMFAd.a; sourceTree = "<group>"; };
-		2221A0881F20703B0027258F /* MFBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFBannerView.h; sourceTree = "<group>"; };
 		2221A08A1F2070650027258F /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		2221A08C1F20706F0027258F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		2221A08E1F20785D0027258F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -80,6 +78,8 @@
 		2221A09C1F2078B80027258F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2221A09E1F2078C40027258F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2221A0A01F2078CB0027258F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2283925F1F665E56000C4692 /* libiMFAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiMFAd.a; sourceTree = "<group>"; };
+		228392611F665E61000C4692 /* MFInterstitialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFInterstitialView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +90,7 @@
 				2221A0A11F2078CB0027258F /* UIKit.framework in Frameworks */,
 				2221A09F1F2078C40027258F /* SystemConfiguration.framework in Frameworks */,
 				2221A09D1F2078B80027258F /* QuartzCore.framework in Frameworks */,
+				228392601F665E56000C4692 /* libiMFAd.a in Frameworks */,
 				2221A09B1F2078AF0027258F /* MobileCoreServices.framework in Frameworks */,
 				2221A0991F2078A50027258F /* MessageUI.framework in Frameworks */,
 				2221A0971F20789A0027258F /* MediaPlayer.framework in Frameworks */,
@@ -99,7 +100,6 @@
 				2221A08F1F20785D0027258F /* CoreGraphics.framework in Frameworks */,
 				2221A08D1F20706F0027258F /* CoreFoundation.framework in Frameworks */,
 				2221A08B1F2070650027258F /* AddressBook.framework in Frameworks */,
-				2221A0871F2070300027258F /* libiMFAd.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,8 +144,8 @@
 		22219FAF1F205D040027258F /* CFiInterstitialSample */ = {
 			isa = PBXGroup;
 			children = (
-				2221A0861F2070300027258F /* libiMFAd.a */,
-				2221A0881F20703B0027258F /* MFBannerView.h */,
+				2283925F1F665E56000C4692 /* libiMFAd.a */,
+				228392611F665E61000C4692 /* MFInterstitialView.h */,
 				22219FB31F205D040027258F /* AppDelegate.h */,
 				22219FB41F205D040027258F /* AppDelegate.m */,
 				22219FB61F205D040027258F /* ViewController.h */,

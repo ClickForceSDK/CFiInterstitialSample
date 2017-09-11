@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MFBannerView.h"
+#import "MFInterstitialView.h"
 
-@interface ViewController : UIViewController<MFBannerDelegate>
+@interface ViewController : UIViewController<MFInterstitialViewDelegate>
 {
-    MFBannerView *cover_banner;
+    MFInterstitialView *fullbanner;
 }
 
 

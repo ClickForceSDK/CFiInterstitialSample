@@ -18,11 +18,26 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    cover_banner = [[MFBannerView alloc] initWithAdSize:MFAdSizeFullScreen origin:CGPointMake(00, 400)];
-    [cover_banner setBannerAlignment:Alignment_Center];
-    [cover_banner setBannerBackgroudColor:[UIColor blackColor]];
-    cover_banner.bannerId = @"3789" ;
-    [cover_banner requestFullScreenAD];
+    fullbanner = [[MFInterstitialView alloc]init];
+    fullbanner.bannerId = @"3790";
+    fullbanner.delegate = self;
+    [fullbanner requestFullScreenAD];
+}
+
+-(void)onRequestItstAdSuccess
+{
+    //顯示蓋板廣告
+    [fullbanner show];
+}
+
+- (void)onClickItst
+{
+    NSLog(@"點擊蓋版廣告");
+}
+
+-(void)onCloseItst
+{
+    NSLog(@"蓋版廣告關閉");
 }
 
 
