@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MFInterstitialView.h"
+#import <iMFAD/iMFAD.h>
 
 @interface ViewController : UIViewController<MFInterstitialViewDelegate>
 {
