@@ -30,6 +30,11 @@
     [fullbanner show];
 }
 
+-(void)onRequestItstAdFail
+{
+    NSLog(@"請求廣告失敗");
+}
+
 - (void)onClickItst
 {
     NSLog(@"點擊蓋版廣告");
