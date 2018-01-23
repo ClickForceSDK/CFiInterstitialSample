@@ -28,7 +28,7 @@
 		2221A09D1F2078B80027258F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A09C1F2078B80027258F /* QuartzCore.framework */; };
 		2221A09F1F2078C40027258F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A09E1F2078C40027258F /* SystemConfiguration.framework */; };
 		2221A0A11F2078CB0027258F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0A01F2078CB0027258F /* UIKit.framework */; };
-		22A6FE981FE36D4300D4F6C2 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A6FE971FE36D4300D4F6C2 /* iMFAD.framework */; };
+		22836A0B20172F98001B4265 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22836A0A20172F98001B4265 /* iMFAD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +91,7 @@
 		2221A09C1F2078B80027258F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2221A09E1F2078C40027258F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2221A0A01F2078CB0027258F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		22A6FE971FE36D4300D4F6C2 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+		22836A0A20172F98001B4265 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				2221A09D1F2078B80027258F /* QuartzCore.framework in Frameworks */,
 				2221A09B1F2078AF0027258F /* MobileCoreServices.framework in Frameworks */,
 				2221A0991F2078A50027258F /* MessageUI.framework in Frameworks */,
-				22A6FE981FE36D4300D4F6C2 /* iMFAD.framework in Frameworks */,
+				22836A0B20172F98001B4265 /* iMFAD.framework in Frameworks */,
 				2221A0971F20789A0027258F /* MediaPlayer.framework in Frameworks */,
 				2221A0951F2078900027258F /* Foundation.framework in Frameworks */,
 				2221A0931F20787C0027258F /* EventKit.framework in Frameworks */,
@@ -135,7 +135,7 @@
 		22219FA41F205D040027258F = {
 			isa = PBXGroup;
 			children = (
-				22A6FE971FE36D4300D4F6C2 /* iMFAD.framework */,
+				22836A0A20172F98001B4265 /* iMFAD.framework */,
 				22219FAF1F205D040027258F /* CFiInterstitialSample */,
 				22219FCC1F205D040027258F /* CFiInterstitialSampleTests */,
 				22219FD71F205D040027258F /* CFiInterstitialSampleUITests */,
@@ -504,6 +504,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -528,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
