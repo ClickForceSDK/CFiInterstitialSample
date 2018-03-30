@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     fullbanner = [[MFInterstitialView alloc]init];
-    fullbanner.bannerId = @"3788";
+    fullbanner.bannerId = @"3789";
     fullbanner.delegate = self;
     [fullbanner requestFullScreenAD];
 }
@@ -43,6 +43,11 @@
 -(void)onCloseItst
 {
     NSLog(@"蓋版廣告關閉");
+}
+
+- (void)onNotCloseBtnItst:(UIView *)adInterstitialView
+{
+    [self.view addSubview:adInterstitialView];
 }
 
 

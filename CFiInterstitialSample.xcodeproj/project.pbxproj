@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221AE515206DE1680055DD1A /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221AE514206DE1670055DD1A /* iMFAD.framework */; };
 		22219FB21F205D040027258F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219FB11F205D040027258F /* main.m */; };
 		22219FB51F205D040027258F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219FB41F205D040027258F /* AppDelegate.m */; };
 		22219FB81F205D040027258F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219FB71F205D040027258F /* ViewController.m */; };
@@ -28,7 +29,6 @@
 		2221A09D1F2078B80027258F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A09C1F2078B80027258F /* QuartzCore.framework */; };
 		2221A09F1F2078C40027258F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A09E1F2078C40027258F /* SystemConfiguration.framework */; };
 		2221A0A11F2078CB0027258F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2221A0A01F2078CB0027258F /* UIKit.framework */; };
-		22BA4A7F201B0EE0007E312F /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BA4A7E201B0EE0007E312F /* iMFAD.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		221AE514206DE1670055DD1A /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 		22219FAD1F205D040027258F /* CFiInterstitialSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiInterstitialSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22219FB11F205D040027258F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22219FB31F205D040027258F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,7 +92,6 @@
 		2221A09C1F2078B80027258F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		2221A09E1F2078C40027258F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2221A0A01F2078CB0027258F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		22BA4A7E201B0EE0007E312F /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 				2221A09D1F2078B80027258F /* QuartzCore.framework in Frameworks */,
 				2221A09B1F2078AF0027258F /* MobileCoreServices.framework in Frameworks */,
 				2221A0991F2078A50027258F /* MessageUI.framework in Frameworks */,
-				22BA4A7F201B0EE0007E312F /* iMFAD.framework in Frameworks */,
+				221AE515206DE1680055DD1A /* iMFAD.framework in Frameworks */,
 				2221A0971F20789A0027258F /* MediaPlayer.framework in Frameworks */,
 				2221A0951F2078900027258F /* Foundation.framework in Frameworks */,
 				2221A0931F20787C0027258F /* EventKit.framework in Frameworks */,
@@ -135,7 +135,7 @@
 		22219FA41F205D040027258F = {
 			isa = PBXGroup;
 			children = (
-				22BA4A7E201B0EE0007E312F /* iMFAD.framework */,
+				221AE514206DE1670055DD1A /* iMFAD.framework */,
 				22219FAF1F205D040027258F /* CFiInterstitialSample */,
 				22219FCC1F205D040027258F /* CFiInterstitialSampleTests */,
 				22219FD71F205D040027258F /* CFiInterstitialSampleUITests */,
@@ -284,6 +284,7 @@
 				TargetAttributes = {
 					22219FAC1F205D040027258F = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8Q3LY5VL5Q;
 						ProvisioningStyle = Automatic;
 					};
 					22219FC81F205D040027258F = {
@@ -504,7 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -529,7 +530,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8Q3LY5VL5Q;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
