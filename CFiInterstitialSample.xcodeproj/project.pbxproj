@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		221AE515206DE1680055DD1A /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 221AE514206DE1670055DD1A /* iMFAD.framework */; };
+		2218141220B6C3B900637490 /* iMFAD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2218141120B6C3B900637490 /* iMFAD.framework */; };
 		22219FB21F205D040027258F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219FB11F205D040027258F /* main.m */; };
 		22219FB51F205D040027258F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219FB41F205D040027258F /* AppDelegate.m */; };
 		22219FB81F205D040027258F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22219FB71F205D040027258F /* ViewController.m */; };
@@ -62,7 +62,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		221AE514206DE1670055DD1A /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
+		2218141120B6C3B900637490 /* iMFAD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iMFAD.framework; sourceTree = "<group>"; };
 		22219FAD1F205D040027258F /* CFiInterstitialSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CFiInterstitialSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22219FB11F205D040027258F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22219FB31F205D040027258F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,7 +104,7 @@
 				2221A09D1F2078B80027258F /* QuartzCore.framework in Frameworks */,
 				2221A09B1F2078AF0027258F /* MobileCoreServices.framework in Frameworks */,
 				2221A0991F2078A50027258F /* MessageUI.framework in Frameworks */,
-				221AE515206DE1680055DD1A /* iMFAD.framework in Frameworks */,
+				2218141220B6C3B900637490 /* iMFAD.framework in Frameworks */,
 				2221A0971F20789A0027258F /* MediaPlayer.framework in Frameworks */,
 				2221A0951F2078900027258F /* Foundation.framework in Frameworks */,
 				2221A0931F20787C0027258F /* EventKit.framework in Frameworks */,
@@ -135,7 +135,7 @@
 		22219FA41F205D040027258F = {
 			isa = PBXGroup;
 			children = (
-				221AE514206DE1670055DD1A /* iMFAD.framework */,
+				2218141120B6C3B900637490 /* iMFAD.framework */,
 				22219FAF1F205D040027258F /* CFiInterstitialSample */,
 				22219FCC1F205D040027258F /* CFiInterstitialSampleTests */,
 				22219FD71F205D040027258F /* CFiInterstitialSampleUITests */,
