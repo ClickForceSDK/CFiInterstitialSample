@@ -19,7 +19,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     fullbanner = [[MFInterstitialView alloc]initWithNlbs];
-    fullbanner.bannerId = @"9747";
+    fullbanner.bannerId = @"3789";
     fullbanner.delegate = self;
     [fullbanner debugInfo:YES];
     [fullbanner requestFullScreenAD];
